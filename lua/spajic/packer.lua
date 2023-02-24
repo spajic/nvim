@@ -50,4 +50,5 @@ return require('packer').startup(function(use)
       {'rafamadriz/friendly-snippets'}, -- Optional
     }
   }
+  use('folke/neodev.nvim') -- LSP for lua and neovim API
 end)
