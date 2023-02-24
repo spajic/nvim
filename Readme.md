@@ -1,5 +1,9 @@
 # TODO
 - [x] setup and document fuzzy search across files
+- [x] setup lua statusline
+- [ ] fix wrong lsp settings
+- [ ] setup git symbols in thegutter
+
 - [ ] setup jj for Esc
 - [ ] learn about friendly-snippets
 - [ ] fix formatting of lua code in this config
