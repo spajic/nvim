@@ -19,16 +19,8 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   
-  -- This is for fzf support in vim: Not sure if I need it or telescope can do everything
-  -- Gives commands like :Files, :Lines, :Buffers, :Ag (uses external searcher ag for fuzzy search across files contents)
---  use('junegunn/fzf')
---  use('junegunn/fzf.vim')
-
   -- Fuzzy Finder Algorithm which requires local dependencies to be built.
-  -- Only load if `make` is available. Make sure you have the system
-  -- requirements installed.
-  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
-  
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' } 
   
   use {
 	  'nvim-treesitter/nvim-treesitter',
@@ -66,7 +58,7 @@ return require('packer').startup(function(use)
     }
   }
   use('folke/neodev.nvim') -- LSP for lua and neovim API
-  use({'j-hui/fidget.nvim', opts = {}})  -- status updates for LSP
+  use({'j-hui/fidget.nvim'})  -- status updates for LSP
 
 
   use {
