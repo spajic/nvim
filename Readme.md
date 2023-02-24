@@ -1,7 +1,6 @@
 # TODO
 - [ ] setup and document fuzzy search across files
-- [ ] setup and document how to move selected lines up/down
-- [x] remove lua-snippets
+- [ ] remove lua-snippets
 - [ ] configure ruby snippets 
 - [ ] write my configurations for which-key
 - [ ] setup some file-tree manage (NERDTree or something better, maybe for Telescope)
