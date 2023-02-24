@@ -51,4 +51,5 @@ return require('packer').startup(function(use)
     }
   }
   use('folke/neodev.nvim') -- LSP for lua and neovim API
+  use({'j-hui/fidget.nvim', opts = {}})  -- status updates for LSP
 end)
