@@ -38,7 +38,7 @@ lsp.preset('recommended')
 lsp.set_preferences({
 	sign_icons = {}
 })
-lsp.on_attach(attach_hook(client, bufnr))
+lsp.on_attach(attach_hook)
 lsp.setup()
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
@@ -60,7 +60,7 @@ mason_lspconfig.setup_handlers {
   function(server_name)
     require('lspconfig')[server_name].setup {
       capabilities = capabilities,
-      on_attach = on_attach,
+      on_attach = attach_hook,
       settings = servers[server_name],
     }
   end,
