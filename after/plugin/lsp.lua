@@ -2,9 +2,9 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 lsp.setup()
-
 lsp.ensure_installed({
 	'eslint', -- I actually don't quite need it, just for future reference
+	'solargraph',
 })
 
 --  This function gets run when an LSP connects to a particular buffer.
