@@ -38,7 +38,7 @@ lsp.preset('recommended')
 lsp.set_preferences({
 	sign_icons = {}
 })
-lsp.on_attach(attach_hook)
+lsp.on_attach(attach_hook(client, bufnr))
 lsp.setup()
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
