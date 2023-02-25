@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use { "nvim-telescope/telescope-file-browser.nvim" }
   
   -- Fuzzy Finder Algorithm which requires local dependencies to be built.
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' } 

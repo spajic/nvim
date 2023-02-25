@@ -8,6 +8,9 @@ vim.keymap.set('n', '<leader>fz', function()                    -- [f]ind fu[z]z
   builtin.grep_string({search = ''})
 end)
 vim.keymap.set('n', '<leader>fc', builtin.grep_string, {})      -- [f]ind term under [c]ursor
+vim.keymap.set('n', '<leader>ff', function() --                 -- [f]ind [f]iles in file browser
+  vim.cmd(':Telescope file_browser')
+end)
 
 -- You dont need to set any of these options. These are the default ones. Only
 -- the loading is important
