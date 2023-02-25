@@ -35,30 +35,23 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   } 
+  use 'nvim-tree/nvim-web-devicons'
 
   -- LSP
-  use {
-   'VonHeikemen/lsp-zero.nvim',
-    branch = 'v1.x',
+ use { -- LSP Configuration & Plugins
+    'neovim/nvim-lspconfig',
     requires = {
-      -- LSP Support
-      {'neovim/nvim-lspconfig'},             -- Required
-      {'williamboman/mason.nvim'},           -- Optional
-      {'williamboman/mason-lspconfig.nvim'}, -- Optional
-
-      -- Autocompletion
-      {'hrsh7th/nvim-cmp'},         -- Required
-      {'hrsh7th/cmp-nvim-lsp'},     -- Required
-      {'hrsh7th/cmp-buffer'},       -- Optional
-      {'hrsh7th/cmp-path'},         -- Optional
-      {'saadparwaiz1/cmp_luasnip'}, -- Optional
-      {'hrsh7th/cmp-nvim-lua'},     -- Optional
-
-      -- Snippets
-      {'L3MON4D3/LuaSnip'},             -- Required
-      {'rafamadriz/friendly-snippets'}, -- Optional
-    }
+      -- Automatically install LSPs to stdpath for neovim
+      {'williamboman/mason.nvim'},
+      {'williamboman/mason-lspconfig.nvim'},
+    },
   }
+
+  use({ -- Autocompletion
+    'hrsh7th/nvim-cmp',
+    requires = { {'hrsh7th/cmp-nvim-lsp'}, {'L3MON4D3/LuaSnip'}, {'saadparwaiz1/cmp_luasnip'} },
+  })
+
   use('folke/neodev.nvim') -- LSP for lua and neovim API
   use({'j-hui/fidget.nvim'})  -- status updates for LSP
 

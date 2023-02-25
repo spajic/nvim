@@ -33,14 +33,6 @@ local servers = {
   solargraph = {}
 }
 
-local lsp = require('lsp-zero')
-lsp.preset('recommended')
-lsp.set_preferences({
-	sign_icons = {}
-})
-lsp.on_attach(attach_hook)
-lsp.setup()
-
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
