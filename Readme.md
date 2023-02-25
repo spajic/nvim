@@ -8,13 +8,17 @@
 - [x] setup devicons
 - [x] setup some file-tree manage (NERDTree or something better, maybe for Telescope)
 - [x] make Solargraph work
-- [ ] setup jj for Esc
-- [ ] setup lsp Format command to apply rubocop or other formatters
+- [x] setup jj for Esc
+- [x] setup lsp `Format` command to apply rubocop or other formatters
+- [ ] setup telescope recent files keymap
+- [ ] check out telescope frecency options
 - [ ] setup tabs plugin for my workflow with two vertical splits
 - [ ] setup golden-ratio plugin
 
-- [ ] setup keymaps for LSP (see kickstart)
-- [ ] do not delete cmp-path [check that it works]
+- [ ] setup and document keymaps for LSP (see kickstart)
+- [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
+- [ ] setup and check cmd-cmdline
+- [ ] setup and check cmd-buffer
 - [ ] refactor diagnostics settings to appropriate place
 
 - [ ] learn about friendly-snippets
