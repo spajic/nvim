@@ -20,6 +20,9 @@
 - [ ] setup and check cmd-cmdline
 - [ ] setup and check cmd-buffer
 - [ ] refactor diagnostics settings to appropriate place
+- [ ] setup telescope-bookmarks
+
+- [ ] learn Treesitter motions, text-objects
 
 - [ ] learn about friendly-snippets
 - [ ] fix formatting of lua code in this config
