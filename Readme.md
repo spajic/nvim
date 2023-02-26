@@ -14,6 +14,9 @@
 - [ ] check out telescope frecency options
 - [ ] setup tabs plugin for my workflow with two vertical splits
 - [ ] setup golden-ratio plugin
+- [ ] learn to user telescope-file-browser for FS manipulation
+
+- [ ] setup copilot
 
 - [ ] setup and document keymaps for LSP (see kickstart)
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
@@ -21,14 +24,21 @@
 - [ ] setup and check cmd-buffer
 - [ ] refactor diagnostics settings to appropriate place
 - [ ] setup telescope-bookmarks
+- [ ] setup telescope-neoclip
+- [ ] setup telescope-env
+
 
 - [ ] learn Treesitter motions, text-objects
+- [ ] learn vim-fugitive features
 
 - [ ] learn about friendly-snippets
 - [ ] fix formatting of lua code in this config
 - [ ] setup and document how to move selected lines up/down
-- [ ] configure ruby snippets 
+- [ ] configure ruby snippets that I often use
 - [ ] write my configurations for which-key
+
+## Backlog
+- [ ] check out solargraph-rails (later, than I will have rails pet-project)
 
 ## Notes
 For telescope live_grep to work do `brew install ripgrep`
