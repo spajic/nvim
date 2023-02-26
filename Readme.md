@@ -11,18 +11,28 @@
 - [x] setup jj for Esc
 - [x] setup lsp `Format` command to apply rubocop or other formatters
 - [x] setup tabs plugin for my workflow with two vertical splits
-- [ ] turn on relative lines numbering
+- [x] turn on relative lines numbering
+- [x] setup restore session
+- [ ] setup telescope frecent files to <leader><leader>
+- [ ] PAUSE SETUP!
+
+
+- [ ] setup more convenient keymap to save the current file
+- [ ] setup telescope search over current buffer
+- [ ] setup copilot
+
+- [ ] setup of grouping specs "tabs" together in the bufferline
+- [ ] go on with primeagen video on his remaps
+- [ ] configure autocomplete keymaps
+- [ ] free ctrl+space keymap of Spotlight search
+
 - [ ] setup telescope recent files keymap
 - [ ] setup and document keymaps for LSP (see kickstart)
-- [ ] check out telescope frecency options
-- [ ] setup telescope search over current buffer
-- [ ] setup restore session
 
 - [ ] setup golden-ratio plugin
 - [ ] learn to user telescope-file-browser for FS manipulation
 - [ ] setup my telescope keymaps in which-key 
 
-- [ ] setup copilot
 
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
 - [ ] setup and check cmd-cmdline

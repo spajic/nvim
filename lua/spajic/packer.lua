@@ -7,6 +7,16 @@ return require('packer').startup(function(use)
   use 'tiagovla/scope.nvim'
 --  use 'zefei/vim-wintabs' -- giving a try to bufferline + scope
 
+use {
+	'rmagatti/auto-session',
+	config = function()
+		require("auto-session").setup {
+			log_level = "error",
+			auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/"},
+		}
+	end
+}
+
   use({
 	  'morhetz/gruvbox',
 	  as = 'gruvbox',
