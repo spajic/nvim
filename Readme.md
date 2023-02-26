@@ -13,8 +13,8 @@
 - [x] setup tabs plugin for my workflow with two vertical splits
 - [x] turn on relative lines numbering
 - [x] setup restore session
-- [ ] setup telescope frecent files to <leader><leader>
-- [ ] PAUSE SETUP!
+- [x] setup telescope frecent files to <leader><leader>
+- [x] PAUSE THIS SETUP!
 
 
 - [ ] setup more convenient keymap to save the current file
