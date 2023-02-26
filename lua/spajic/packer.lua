@@ -4,6 +4,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'tiagovla/scope.nvim'
+--  use 'zefei/vim-wintabs' -- giving a try to bufferline + scope
 
   use({
 	  'morhetz/gruvbox',
@@ -37,6 +39,8 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   } 
   use 'nvim-tree/nvim-web-devicons'
+
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
   -- LSP
  use { -- LSP Configuration & Plugins

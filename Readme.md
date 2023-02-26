@@ -10,15 +10,20 @@
 - [x] make Solargraph work
 - [x] setup jj for Esc
 - [x] setup lsp `Format` command to apply rubocop or other formatters
+- [x] setup tabs plugin for my workflow with two vertical splits
+- [ ] turn on relative lines numbering
 - [ ] setup telescope recent files keymap
+- [ ] setup and document keymaps for LSP (see kickstart)
 - [ ] check out telescope frecency options
-- [ ] setup tabs plugin for my workflow with two vertical splits
+- [ ] setup telescope search over current buffer
+- [ ] setup restore session
+
 - [ ] setup golden-ratio plugin
 - [ ] learn to user telescope-file-browser for FS manipulation
+- [ ] setup my telescope keymaps in which-key 
 
 - [ ] setup copilot
 
-- [ ] setup and document keymaps for LSP (see kickstart)
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
 - [ ] setup and check cmd-cmdline
 - [ ] setup and check cmd-buffer
@@ -39,6 +44,23 @@
 
 ## Backlog
 - [ ] check out solargraph-rails (later, than I will have rails pet-project)
+
+## Tabs
+Buffer - opened file
+Window - split
+Tabs - group of windows (like another view or perspective)
+
+So what is Tabline in other editors is Bufferline in vim.
+
+I overall like plugin `bufferline.nvim`, it's beautiful and feature-rich.
+
+But also where is `zefei/vim-wintabs` plugin - it's not so fancy, but it ties buffers to windows! So you can have a set of buffers for each split, that resembles other editors.
+
+But where is also `tiagovla/scope.nvim` plugin, that makes buffers belong to tabs.
+
+So I'll give a try for `bufferline` + `scope`.
+
+If scoupe could tie tabs to windows that would be perfect.
 
 ## Notes
 For telescope live_grep to work do `brew install ripgrep`
