@@ -55,13 +55,7 @@ use {
   requires = {"kkharji/sqlite.lua"}
 }
 
-  use({
-	  'morhetz/gruvbox',
-	  as = 'gruvbox',
-	  config = function()
-		  vim.cmd('colorscheme gruvbox')
-	  end
-  })
+  use({'morhetz/gruvbox', as = 'gruvbox'})
 
   use {'lewis6991/gitsigns.nvim'}
 
