@@ -1,3 +1,11 @@
+-- Automatically call PackerCompile after updating this file
+vim.cmd([[
+  augroup packer_user_config
+    autocmd!
+    autocmd BufWritePost packer.lua source <afile> | PackerCompile
+  augroup end
+]])
+
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
