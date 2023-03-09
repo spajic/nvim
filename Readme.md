@@ -14,48 +14,103 @@
 - [x] turn on relative lines numbering
 - [x] setup restore session
 - [x] setup telescope frecent files to <leader><leader>
-- [x] PAUSE THIS SETUP!
+- [x] setup telescope search over current buffer
+- [x] setup telescope recent files keymap
+- [x] setup more convenient keymap to save the current file
+- [x] setup golden-ratio plugin
+- [x] setup copilot
+- [x] setup telescope-bookmarks
+- [x] setup clipboard of vim to be the same as system clipboard
+- [x] setup my telescope keymaps in which-key 
+- [x] go on with primeagen video on his remaps
+- [x] setup and document how to move selected lines up/down
+- [ ] setup smartcase search
+- [ ] setup tpope/vim-commentary
+- [ ] SETUP AND LEARN ror.nvim on example Rails pet project (telegram bot)
+- [ ] setup keymaps for bufferline in which-key
+  - [ ] move between tabs left and right
+  - [ ] close the current tab
+  - [ ] close all tabs except current
+- [ ] install file-tree plugin
+- [ ] setup git flow like in this video: https://www.youtube.com/watch?v=IyBAuDPzdFY
 
+- [ ] setup and document keymaps for LSP (see kickstart config)
+- [ ] setup `map <Leader>cp :let @+=@% <CR>` to copy current path
+- [ ] setup code folding, document remaps
+- [ ] LEARN: how to show git blame
+- [ ] LEARN: everyday git operations with Fugitive
+- [ ] LEARN: setup filetree and learn to use it
+- [ ] LEARN: how to use code snippets (esp for ruby)
+- [ ] LEARN: figure out tabs, indenting, auto-formatting with =
+- [ ] LEARN: vim + dash = killer documentation (see bookmarks)
+- [ ] check out awesome-neovim github repo
+- [ ] начать добавлять в lobanov типы и прикрутить LSP для работы с ними
+- [ ] setup NeoTest + rspec 
+  - [ ] see thoughtbot/vim-rspec
 
-- [ ] setup more convenient keymap to save the current file
-- [ ] setup telescope search over current buffer
-- [ ] setup copilot
+- [ ] check if solargraph for lobanov works with correct rubocop config
+- [ ] 
 
-- [ ] setup of grouping specs "tabs" together in the bufferline
-- [ ] go on with primeagen video on his remaps
 - [ ] configure autocomplete keymaps
-- [ ] free ctrl+space keymap of Spotlight search
-
-- [ ] setup telescope recent files keymap
-- [ ] setup and document keymaps for LSP (see kickstart)
-
-- [ ] setup golden-ratio plugin
-- [ ] learn to user telescope-file-browser for FS manipulation
-- [ ] setup my telescope keymaps in which-key 
-
-
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
 - [ ] setup and check cmd-cmdline
 - [ ] setup and check cmd-buffer
+- [ ] fix autocomplete weird color
+
+- [ ] setup trouble
+
+- [ ] setup of grouping specs "tabs" together in the bufferline
+- [ ] free ctrl+space keymap of Spotlight search
+
+
+- [ ] learn to user telescope-file-browser for FS manipulation
+- [ ] apply consistent and nice formatting to packer.lua
+- [ ] check out plugin from cickstart for better work with tabs and spaces
+
 - [ ] refactor diagnostics settings to appropriate place
-- [ ] setup telescope-bookmarks
-- [ ] setup telescope-neoclip
-- [ ] setup telescope-env
 
 
-- [ ] learn Treesitter motions, text-objects
 - [ ] learn vim-fugitive features
+- [ ] learn Treesitter motions, text-objects
 
 - [ ] learn about friendly-snippets
 - [ ] fix formatting of lua code in this config
-- [ ] setup and document how to move selected lines up/down
 - [ ] configure ruby snippets that I often use
 - [ ] write my configurations for which-key
+
+## Smart moves
+i", i{, ... inside different quotes, brackets, etc...
+iW - inside long::word
+ip - indise paragraph
+i may be replaced with a - that way it would include the brackets 
+
+so, it is very handy to
+- ciw - change a word 
+- dap - delete a paragraph
+- yi{ - yank inside braces
+- viW - visually select long::word
+- das - delete a sentence
+
+% - jump to the corresponding bracket
+~ - change case of selected letters (lower - upper - lower)
+
+I can move visually selected lines with up/down with J/K (see remap)
+
+## Spellcheck
+Works for Russian and English
+
+- [s - previous spelling error
+- ]s - next spelling error
+- z= - suggest correction
 
 ## Backlog
 - [ ] check out solargraph-rails (later, than I will have rails pet-project)
 
 ## Tabs
+- ctrl+j - previous tab (buffer)
+- ctrl+k - next tab (buffer)
+- ctrl+x - close current tab (buffer)
+
 Buffer - opened file
 Window - split
 Tabs - group of windows (like another view or perspective)
