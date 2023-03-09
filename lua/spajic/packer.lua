@@ -14,6 +14,19 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'tiagovla/scope.nvim'
 --  use 'zefei/vim-wintabs' -- giving a try to bufferline + scope
+  use 'roman/golden-ratio'
+  use 'github/copilot.vim'
+
+use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional, for file icons
+  },
+  config = function()
+	  require("nvim-tree").setup()
+  end
+--  tag = 'nightly' -- optional, updated every week. (see issue #1193)
+}
 
 use {
 	'rmagatti/auto-session',
@@ -23,6 +36,15 @@ use {
 			auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/"},
 		}
 	end
+}
+
+use {
+  'dhruvmanila/telescope-bookmarks.nvim',
+  tag = '*',
+  -- Uncomment if the selected browser is Firefox, Waterfox or buku
+  -- requires = {
+  --   'kkharji/sqlite.lua',
+  -- }
 }
 
 use {
