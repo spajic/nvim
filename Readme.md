@@ -103,6 +103,9 @@ Works for Russian and English
 - ]s - next spelling error
 - z= - suggest correction
 
+## Russian layout
+`Ctrl-^` switches vim to type russian without switching the system layout.
+
 ## Backlog
 - [ ] check out solargraph-rails (later, than I will have rails pet-project)
 
