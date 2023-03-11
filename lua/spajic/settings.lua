@@ -1,3 +1,7 @@
+-- Case insensitive searching UNLESS /C or capital in search
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
 vim.opt.signcolumn = 'yes'
 vim.o.number = true -- enable line numbers
 vim.o.relativenumber = true -- enable relative line numbers
