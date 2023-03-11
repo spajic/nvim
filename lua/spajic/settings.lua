@@ -17,3 +17,6 @@ vim.opt.colorcolumn = '80' -- visual reminder to not have long string
 vim.cmd('set keymap=russian-jcukenwin')
 vim.opt.iminsert = 0
 vim.opt.imsearch = 0
+
+vim.opt.spell = true
+vim.opt.spelllang = {'ru_yo', 'en_us'}
