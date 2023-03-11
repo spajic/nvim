@@ -13,3 +13,4 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
 }
 )
 vim.keymap.set("i", "jj", "<Esc>") -- jj for Esc from Insert mode
+vim.keymap.set("i", "ww", "<Esc>:w<CR>") -- ww to save and go to Normal mode 
