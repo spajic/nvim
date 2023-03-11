@@ -30,3 +30,8 @@ vim.keymap.set( -- replace a word under a cursor
   "<leader>s",
   [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]
 )
+
+vim.keymap.set('n', '<C-k>', ':BufferLineCycleNext<CR>', { silent = true, noremap = true })
+vim.keymap.set('n', '<C-j>', ':BufferLineCyclePrev<CR>', { silent = true, noremap = true })
+vim.keymap.set('n', '<C-x>', ':bd<CR>', { silent = true, noremap = true })
+
