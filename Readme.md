@@ -24,21 +24,19 @@
 - [x] setup my telescope keymaps in which-key 
 - [x] go on with primeagen video on his remaps
 - [x] setup and document how to move selected lines up/down
+- [x] install file-tree plugin
+- [ ] LEARN: how to show git blame
+- [ ] LEARN: everyday git operations with Fugitive
+- [ ] setup keymaps for bufferline in which-key
+  - [ ] close all tabs except current
 - [ ] setup smartcase search
 - [ ] setup tpope/vim-commentary
 - [ ] SETUP AND LEARN ror.nvim on example Rails pet project (telegram bot)
-- [ ] setup keymaps for bufferline in which-key
-  - [ ] move between tabs left and right
-  - [ ] close the current tab
-  - [ ] close all tabs except current
-- [ ] install file-tree plugin
 - [ ] setup git flow like in this video: https://www.youtube.com/watch?v=IyBAuDPzdFY
 
 - [ ] setup and document keymaps for LSP (see kickstart config)
 - [ ] setup `map <Leader>cp :let @+=@% <CR>` to copy current path
 - [ ] setup code folding, document remaps
-- [ ] LEARN: how to show git blame
-- [ ] LEARN: everyday git operations with Fugitive
 - [ ] LEARN: setup filetree and learn to use it
 - [ ] LEARN: how to use code snippets (esp for ruby)
 - [ ] LEARN: figure out tabs, indenting, auto-formatting with =
