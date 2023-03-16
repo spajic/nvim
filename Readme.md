@@ -47,7 +47,6 @@
   - [ ] see thoughtbot/vim-rspec
 
 - [ ] check if solargraph for lobanov works with correct rubocop config
-- [ ] 
 
 - [ ] configure autocomplete keymaps
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
@@ -93,6 +92,14 @@ so, it is very handy to
 ~ - change case of selected letters (lower - upper - lower)
 
 I can move visually selected lines with up/down with J/K (see remap)
+
+## Smart comments
+tpope/vim-commentary
+
+- gc - main command, comment/uncomment a selection in Visual mode
+- gcc - comment current line
+- gcap - comment a paragraph (accept any motion target)
+- use `.` to repeat (useful to toggle comment/uncomment)
 
 ## Spellcheck
 Works for Russian and English
