@@ -102,6 +102,8 @@ use {
   use('folke/neodev.nvim') -- LSP for lua and neovim API
   use({'j-hui/fidget.nvim'})  -- status updates for LSP
 
+  use('sindrets/diffview.nvim')
+
   use('tpope/vim-commentary')
 
   use {
