@@ -29,13 +29,16 @@
 - [x] setup tpope/vim-commentary
 - [x] setup `map <Leader>cp :let @+=@% <CR>` to copy current path
 - [x] setup bufdelete
-
+- [ ] LEARN: how to show git blame and write it down in this Readme
+- [ ] configure autocomplete keymaps
+- [ ] configure Copilot to be disabled on start;
+- [ ] setup copilot keymaps
+- [ ] setup very cool plugin for rails-lsp
 
 
 - [ ] setup of grouping specs "tabs" together in the bufferline
 
 
-- [ ] LEARN: how to show git blame and write it down in this Readme
 - [ ] LEARN: everyday git operations with Fugitive
 - [ ] setup keymaps for bufferline in which-key
   - [ ] close all tabs except current
@@ -55,7 +58,6 @@
 
 - [ ] check if solargraph for lobanov works with correct rubocop config
 
-- [ ] configure autocomplete keymaps
 - [ ] do not delete cmp-path [check that it works] (see lsp-zero readme)
 - [ ] setup and check cmd-cmdline
 - [ ] setup and check cmd-buffer
