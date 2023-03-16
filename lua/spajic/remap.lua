@@ -35,3 +35,5 @@ vim.keymap.set('n', '<C-k>', ':BufferLineCycleNext<CR>', { silent = true, norema
 vim.keymap.set('n', '<C-j>', ':BufferLineCyclePrev<CR>', { silent = true, noremap = true })
 vim.keymap.set('n', '<C-x>', ':bd<CR>', { silent = true, noremap = true })
 
+-- copy current path to clipboard
+vim.keymap.set('n', '<Leader>cp', ':let @+=@% <CR>', { silent = true, noremap = true, desc = '[C]opy [P]ath'})
