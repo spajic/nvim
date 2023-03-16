@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/spajic/.local/share/nvim/site/pack/packer/start/auto-session",
     url = "https://github.com/rmagatti/auto-session"
   },
+  ["bufdelete.nvim"] = {
+    loaded = true,
+    path = "/Users/spajic/.local/share/nvim/site/pack/packer/start/bufdelete.nvim",
+    url = "https://github.com/famiu/bufdelete.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/spajic/.local/share/nvim/site/pack/packer/start/bufferline.nvim",

@@ -28,7 +28,10 @@
 - [x] setup smartcase search
 - [x] setup tpope/vim-commentary
 - [x] setup `map <Leader>cp :let @+=@% <CR>` to copy current path
-- [ ] setup bufdelete
+- [x] setup bufdelete
+
+
+
 - [ ] setup of grouping specs "tabs" together in the bufferline
 
 
@@ -120,10 +123,11 @@ Works for Russian and English
 ## Backlog
 - [ ] check out solargraph-rails (later, than I will have rails pet-project)
 
-## Tabs
+## Tabs/Buffers
 - ctrl+j - previous tab (buffer)
 - ctrl+k - next tab (buffer)
 - ctrl+x - close current tab (buffer)
+- <Leader>bp - [B]uffer [P]ick
 
 Buffer - opened file
 Window - split
